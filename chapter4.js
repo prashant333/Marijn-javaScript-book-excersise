@@ -28,20 +28,31 @@
 // rangearray(1,10,2)
 
 // question 2: function to reverse an array
-function reverseArray(arr) {
-    let c = Math.floor((arr.length)/2)
-    let i=0
-    let ary=[]
-    while (i<c) {
-        ary.push(arr.shift())
-        i++
+// function reverseArray(arr) {
+//     let c = Math.floor((arr.length)/2)
+//     let i=0
+//     let ary=[]
+//     while (i<c) {
+//         ary.push(arr.shift())
+//         i++
+//     }
+//     let count =0
+//     while (count<c) { 
+//         arr.unshift(arr.splice(1,2))
+//         count++
+//     }
+//     console.log(ary)
+//     console.log(arr)
+// }
+// reverseArray([1,2,3,4,5])
+
+function reverseArr(input) {
+    var ret = new Array;
+    for(var i = input.length-1; i >= 0; i--) {
+        ret.push(input[i]);
     }
-    let count =0
-    while (count<c) { 
-        arr.unshift(arr.pop())
-        count++
-    }
-    console.log(ary)
-    console.log(arr)
+    console.log(ret)
 }
-reverseArray([1,2,3,4,5])
+
+var a = [3,5,7,8]
+var b = reverseArr(a);
