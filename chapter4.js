@@ -15,14 +15,16 @@ function rangearray(a,b,c){
     } else {
         console.log("enter valid range")   
     }
-    // sum(arr)    
+    sum(arr)    
     console.log(arr)
 }
-// function sum(array) {
-//     var total=0
-//     for (let index = 0; index < array.length; index++) {
-//         total += array[index];   
-//     }
-//     console.log(total)
-// }
+function sum(array) {
+    var total=0
+    for (let index = 0; index < array.length; index++) {
+        total += array[index];   
+    }
+    console.log(total)
+}
 rangearray(1,10,2)
+
+// question 2: function to reverse an array
