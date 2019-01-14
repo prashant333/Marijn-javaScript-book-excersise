@@ -1,4 +1,4 @@
-// The sum of a range
+// question 1: The sum of a range
 function rangearray(a,b){
     var arr=[]
     if (b>a) {
