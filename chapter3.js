@@ -1,9 +1,10 @@
 // question 1 MINIMUM
-function minimum(a,b){
-    console.log("minimum of two number is:",Math.min(a,b))
+function min(a,b){
+    if (a<b) return a 
+    else return b
 }
-minimum(4,3)
-
+console.log(min(0,10))
+console.log(min(0,-10))
 //  question 2 RECURSION
 function isEven(n) {
     if(n==0)
